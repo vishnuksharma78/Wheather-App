@@ -1,0 +1,40 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/wheather.png");
+    background-size: cover;
+}
+
+.container{
+    top: 70px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.container #city{
+    margin: 10px;
+    padding: 13px;
+    border-radius: 20px;
+    width: 70vh;
+}
+
+.container #add{
+    margin: 10px;
+    padding: 13px;
+    border-radius: 20px;
+    width: 25vh;
+}
+
+.result{
+    margin: auto;
+    height: 45vh;
+    width: 400px;
+    top: 100px;
+    left: 71px;
+    position: relative;
+}
