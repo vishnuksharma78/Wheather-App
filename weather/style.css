@@ -5,8 +5,9 @@
 }
 
 body{
-    background-image: url("/wheather.png");
-    background-size: cover;
+   background: linear-gradient(45deg,#458ae4,#2f76fa,#7462ff);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite ;
 }
 
 .container{
