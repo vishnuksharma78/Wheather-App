@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("/wheather.png");
+    background-image: url("weather/wheather.png");
     background-size: cover;
 }
 
